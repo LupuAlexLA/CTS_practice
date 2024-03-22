@@ -1,4 +1,4 @@
-package _03_Factory_Method;
+package _03_Factory_Method.playground;
 
 public class MainFactoryMethod {
     public static void main(String[] args) {

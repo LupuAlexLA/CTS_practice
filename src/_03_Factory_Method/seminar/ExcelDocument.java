@@ -1,7 +1,9 @@
-package _03_Factory_Method;
+package _03_Factory_Method.seminar;
 
-public class MicrosoftExcel implements Document {
+public class ExcelDocument implements OfficeDocument {
     private String name;
+
+    ExcelDocument() {}
 
     @Override
     public String getName() {
@@ -15,6 +17,6 @@ public class MicrosoftExcel implements Document {
 
     @Override
     public void open() {
-        System.out.println("Opening Microsoft Excel");
+        System.out.println("Excel is opening...");
     }
 }

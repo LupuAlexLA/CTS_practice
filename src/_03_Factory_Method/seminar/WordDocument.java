@@ -1,7 +1,9 @@
-package _03_Factory_Method;
+package _03_Factory_Method.seminar;
 
-public class MicrosoftWord implements Document {
+public class WordDocument implements OfficeDocument {
     private String name;
+
+    WordDocument() { }
 
     @Override
     public String getName() {
@@ -15,6 +17,6 @@ public class MicrosoftWord implements Document {
 
     @Override
     public void open() {
-        System.out.println("Opening Microsoft Word");
+        System.out.println("Word is opening...");
     }
 }

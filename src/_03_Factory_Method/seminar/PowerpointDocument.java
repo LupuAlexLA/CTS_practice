@@ -1,7 +1,9 @@
-package _03_Factory_Method;
+package _03_Factory_Method.seminar;
 
-public class GoogleSpreadsheet implements Document {
+public class PowerpointDocument implements OfficeDocument {
     private String name;
+
+    PowerpointDocument() {}
 
     @Override
     public String getName() {
@@ -15,6 +17,6 @@ public class GoogleSpreadsheet implements Document {
 
     @Override
     public void open() {
-        System.out.println("Opening Google Spreadsheet");
+        System.out.println("Powerpoint is opening...");
     }
 }

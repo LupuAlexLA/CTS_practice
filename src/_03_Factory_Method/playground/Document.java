@@ -1,4 +1,4 @@
-package _03_Factory_Method;
+package _03_Factory_Method.playground;
 
 public interface Document {
     public String getName();
