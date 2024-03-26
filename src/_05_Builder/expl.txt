@@ -1,0 +1,3 @@
+scop: creare ob complex imutabil fara c-tor
+in FD -> clone (pt a nu mai da aceeasi instanta)
+romb compunere directorul are un AbstractBuilder
