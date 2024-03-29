@@ -1,6 +1,4 @@
-package _01_Singleton.test;
-
-import java.util.Random;
+package _00_Examene._01_Creationale.T01.pb1_singletonThreadSafe;
 
 public class License implements AbstractTourismLicense {
     private String number;
