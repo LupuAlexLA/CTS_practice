@@ -1,0 +1,10 @@
+O companie de jocuri video organizează turnee online, transmise live pe mai multe platforme de gaming. Deși același
+meci este transmis pe toate platformele, organizatorii se confruntă cu dificultăți în gestionarea separată a fiecărei
+transmisii live, deoarece se pierde mult timp cu crearea fiecarei transmisiuni in parte.
+Având în vedere că o transmisie live a unui meci implementează interfața Stream, folosiți un
+design pattern care să optimizeze procesul de transmitere live pe platformele multiple. Luați în considerare că, deși
+transmisiunile sunt pentru același meci, ele pot conține detalii specifice fiecărei platforme (de exemplu: diferite
+chat-uri pentru fiecare platformă).
+
+Verificați soluția implementată prin crearea a 3 transmisii live ale aceluiași meci pe 3 platforme de gaming diferite.
+Demonstrați că adăugarea unui mesaj în chat pe una dintre platforme nu influențează chat-ul celorlalte transmisii.

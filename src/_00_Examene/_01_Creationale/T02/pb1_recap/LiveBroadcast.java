@@ -1,4 +1,4 @@
-package _00_Examene._01_Creationale.T02.pb1_prototype;
+package _00_Examene._01_Creationale.T02.pb1_recap;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,12 +26,12 @@ public class LiveBroadcast implements Live, Cloneable {
 
     @Override
     public byte[] getStream() {
-        return stream.clone(); // asiguram că stream-ul este clonat pentru a preveni leaks-urile de referințe
+        return stream.clone();
     }
 
     @Override
     public List<String> getComments() {
-        return new ArrayList<>(comments); // returnam o copie a listei pentru a preveni modificarile externe
+        return new ArrayList<>(comments);
     }
 
     @Override
@@ -40,7 +40,7 @@ public class LiveBroadcast implements Live, Cloneable {
     }
 
     @Override
-    public LiveBroadcast clone() throws CloneNotSupportedException {
+    public Object clone() throws CloneNotSupportedException {
         LiveBroadcast copy = (LiveBroadcast) super.clone();
         copy.title = title;
         copy.stream = stream;
