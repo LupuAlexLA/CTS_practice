@@ -1,0 +1,9 @@
+permite decuplarea celor care vor sa fie notificati de intamplarea unui eveniment
+=> pentru a evita o dependenta directa
+Holywood Principle (don't call us we call you)
+
+- Observable - elementul pe care dorim sa l observam
+- Observer - entitatea care observa
+
+canalul de yt - elem observabil
+abonatii - observarii (vor fi notificati)
