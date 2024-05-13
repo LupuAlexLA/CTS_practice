@@ -1,0 +1,8 @@
+Scop: decupleaza o actiune / decupleaza cel care initiaza actiunea de cel care executa actiunea
+cuvant cheie: asincronicitatea (cine a dat comanda sa nu astepte sa o termine cel care o executa ca sa poata sa-i dea alta)
+=> initiatorul ar trb sa dea mai multe comenzi si sa se rezolve in ordinea primirii lor
+
+o comanda
+- deriveaza clasa comanda generala (foodOrder)
+=> pt A actiune pe care poate sa o faca bucatarul, o sa avem cate o comanda
+- incapsuleaza si executantul (bucatarul)
