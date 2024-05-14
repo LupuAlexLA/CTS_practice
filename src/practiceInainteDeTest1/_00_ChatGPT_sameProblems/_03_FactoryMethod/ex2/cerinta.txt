@@ -1,7 +1,0 @@
-Pe parcursul zilei, aplicația mobilă de monitorizare a sănătății colectează date despre activitățile fizice ale
-utilizatorului. Toate aceste date sunt reprezentate prin obiecte care implementează interfața HealthActivityReport.
-Implementați un design pattern care să permită aplicației, în funcție de activitatea detectată, să genereze rapoarte
-de tipul odihnă, activitate moderată sau activitate intensă.
-
-Demonstrați funcționalitatea într-un program principal prin generarea a cel puțin 4 rapoarte de activitate
-din categoriile diferite.

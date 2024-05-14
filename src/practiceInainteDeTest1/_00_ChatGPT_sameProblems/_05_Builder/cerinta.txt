@@ -1,9 +1,0 @@
-O companie de dezvoltare software oferă pachete de servicii personalizate care includ: dezvoltare software
-(tipul proiectului, tehnologiile folosite), suport tehnic (durată, nivel de suport) și training pentru utilizatori
-(tipuri de training, durată). Clasa dedicată unui pachet de servicii software este derivată din interfața
-AbstractServicePackage. Compania dorește să poată oferi pachete de servicii în orice combinație (doar dezvoltare,
-doar suport, dezvoltare + suport, etc.) și, în plus, să asigure că un pachet de servicii odată creat nu poate fi
-modificat. Implementați un design pattern care să adreseze această necesitate.
-
-2p. Testați implementarea într-un program principal prin crearea a minim 3 pachete de servicii care includ diverse
-combinații de servicii. Demonstrați că un pachet, odată ce a fost creat, nu mai poate fi modificat.
