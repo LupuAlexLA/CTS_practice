@@ -1,0 +1,30 @@
+1 command stiu
+
+2 adapter stiu
+
+3 chain
+    - in clasa abs Handler trb bagat si campul actualDestination (protected)
+    - in clasele concrete ambele metode trb sa implementeze chain-ul
+        - in handleRequest - updatez actualDestination sau o trimit in nextHandler
+        - in met din inter - destinatia urm handler pe else
+        - in ultimul handler, in met handleRequest, pe else actualizez si actualDestination cu destination
+
+4 decorator
+    - in clasa DeliveryDecorator
+        - supradef met din AbstractDelivery
+
+    - in clasa Delivery doar supradefinesti metodele din AbstractDelivery
+
+    - in clasa ExpressDelivery
+        - supradef metodele din DeliveryDecorator
+        - in deliver() faci set zile + mesaj
+
+    - in clasa TwoReceiversDelivery
+        - supradef metodele din DeliveryDecorator
+        - set pe receiver
+        - get si set pe secondReceiver()
+        - in metoda deliver() faci super.deliver() si mesaj cu cei 2 destinatari
+
+5 composite
+    - faci clasa abstracta Antivirus care implementeaza interfata
+    - metodele de add si delete returneaza void si primesc S s
